@@ -1,0 +1,30 @@
+.a {
+  background: red;
+  height: 100px;
+  width: 100px;
+}
+
+.b {
+  background: yellow;
+  height: 100px;
+  width: 100px;
+}
+
+.c {
+  background: blue;
+  height: 100px;
+  width: 100px;
+}
+
+.a, .b, .c {
+  display: inline-block;
+  
+}
+
+.d {
+  background: black;
+  display: inline-block;
+}
+body {
+  position: relative;
+}
