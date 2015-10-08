@@ -11,3 +11,10 @@ $(document).ready(function () {
     })
 
 })
+
+
+$(document).ready(function () {
+    $('div.planet').click(function () {
+        $(this).fadeOut('fast')
+    })
+})
