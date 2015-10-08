@@ -2,12 +2,16 @@
   background: red;
   height: 100px;
   width: 100px;
+  margin-right: -4px;
+
 }
 
 .b {
   background: yellow;
   height: 100px;
   width: 100px;
+  margin-right: -4px;
+
 }
 
 .c {
@@ -18,13 +22,47 @@
 
 .a, .b, .c {
   display: inline-block;
-  
 }
 
 .d {
   background: black;
-  display: inline-block;
+  /*display: inline-block;*/
+  padding: 10px;
+  left: 50%;
+  position: absolute;
+  /*position: relative;*/
+  margin-left: -160px;
+  width: 300px;
+  top: 30%;
+  margin-top: -60px;
 }
+
 body {
   position: relative;
+  height: 100%;
+}
+
+html {
+  height: 100%
+}
+
+.e {
+  margin: auto;
+  height: 300px;
+  width: 300px;
+  background-color: pink;
+  border: 1px solid black;
+  position: relative;
+  z-index: -10;
+}
+
+.f {
+  top: 50%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -50px;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  background-color: teal;
 }
